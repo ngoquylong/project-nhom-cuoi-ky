@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Biển số Xe Ô Tô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Hệ Thống Quản Lý Biển Số Xe Ô Tô</h1>
+    </header>
+
+    <!-- Form Đăng Nhập -->
+    <section class="login-section">
+        <h2>Đăng Nhập</h2>
+        <form id="loginForm">
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="login()">Đăng Nhập</button>
+        </form>
+        <p id="loginMessage"></p>
+    </section>
+
+    <!-- Ưu Đãi Dành Cho Thành Viên -->
+    <section class="offers-section">
+        <h2>Ưu Đãi Dành Cho Thành Viên</h2>
+        <p>Thành viên VIP sẽ nhận được các ưu đãi hấp dẫn như:</p>
+        <ul>
+            <li>Giảm giá 10% phí dịch vụ</li>
+            <li>Ưu tiên hỗ trợ khi đăng ký và bảo trì xe</li>
+            <li>Cập nhật thông tin về biển số xe mới nhất</li>
+        </ul>
+    </section>
+
+    <!-- Thông Tin Khác -->
+    <section class="info-section">
+        <h2>Thông Tin Liên Quan</h2>
+        <p>Trang web này giúp quản lý biển số xe ô tô, bao gồm các tính năng tìm kiếm, cập nhật, và bảo trì thông tin biển số.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
