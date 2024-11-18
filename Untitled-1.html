@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang web quản lý biển số xe</title>
+    <link rel="stylesheet" href="Untitled-2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="bbc-05 1.png" alt="Logo">
+            </div>   
+
+            <nav>
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Tìm kiếm biển số">
+                <button>Tìm kiếm</button>
+            </div>
+            <div class="user">
+                <a href="#">Hồ sơ</a>
+                <a href="#">Đăng nhập</a>
+                <a href="#">Đăng ký</a>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý biển số xe ô tô</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Thanh điều hướng -->
+  <header class="header">
+    <h1>Quản lý biển số xe ô tô</h1>
+  </header>
+
+  <!-- Form thêm mới biển số xe -->
+  <section class="form-container">
+    <form id="vehicleForm">
+      <input type="text" id="licensePlate" placeholder="Biển số xe" required>
+      <input type="text" id="owner" placeholder="Chủ xe" required>
+      <input type="text" id="vehicleType" placeholder="Loại xe" required>
+      <input type="date" id="registrationDate" required>
+      <button type="submit">Thêm xe</button>
+    </form>
+  </section>
+
+  <!-- Danh sách biển số xe -->
+  <img src="Frame 42.jpg" alt="Ảnh xe ô tô">
+  <section class="vehicle-list">
+    <table id="vehicleTable">
+      <thead>
+        <tr>
+          <th>Biển số</th>
+          <th>Chủ xe</th>
+          <th>Loại xe</th>
+          <th>Ngày đăng ký</th>
+          <th>Hành động</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dữ liệu sẽ được thêm vào đây qua JavaScript -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
